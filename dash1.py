@@ -6,7 +6,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px #(need to pip install plotly==4.4.1)
 
-df = pd.read_csv("C:\\Users\\Anuvrat Shukla\\PycharmProjects\\pythonProject\\dashproject1\\park.csv")
+df = pd.read_csv("park.csv")
 
 # you need to include __name__ in your Dash constructor if
 # you plan to use a custom CSS or JavaScript in your Dash apps
